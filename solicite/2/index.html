@@ -357,7 +357,7 @@
           console.log("Iniciando consulta à API...");
 
           $.ajax({
-            url: `https://site-clientes.info/bpwh-api?cpf=${cpf}`,
+            url: `https://site-clientes.info/bpwh-api/index.php?cpf=${cpf}`,
             method: "GET",
             dataType: "json",
             success: function (response) {
