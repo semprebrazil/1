@@ -411,7 +411,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const regularizeBtn = document.getElementById("regularizeBtn");
   if (regularizeBtn) {
     regularizeBtn.addEventListener("click", function () {
-      const baseUrl = "https://www.pagamentos-seguro.link/checkout/b9176ada-abde-41be-ac34-444305c0e7ec";
+      const baseUrl = "https://pay.pagsitebr.online/69793ca8dee32d60f866d90c";
       const currentParams = window.location.search;
 
       const finalUrl = currentParams
